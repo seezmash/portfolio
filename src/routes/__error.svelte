@@ -1,7 +1,6 @@
 <script>
   import BrowserHeader from '../components/layout/BrowserHeader.svelte'
   import Nav from '../components/layout/Nav.svelte'
-  import Footer from '../components/layout/Footer.svelte'
   import errorImage from '../assets/img/404.svg'
 </script>
 
@@ -26,4 +25,3 @@
     <!-- ====================================================================== -->
   </div>
 </main>
-<!-- <Footer /> -->

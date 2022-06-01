@@ -1,8 +1,8 @@
 {
-  "name": "playground-sveltekit",
-  "version": "0.0.1",
+  "name": "portfolio",
+  "version": "0.0.2",
   "scripts": {
-    "dev": "svelte-kit dev --port 3070 --open",
+    "dev": "svelte-kit dev --port 3040 --open",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
