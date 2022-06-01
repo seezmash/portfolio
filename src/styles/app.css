@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  overflow-y: scroll;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title_gradient {
+  background: -webkit-linear-gradient(right, #22c55e, #0ea5e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@layer components {
+  .page_width_wide {
+    @apply max-w-4xl px-6;
+  }
+
+  .box_radius {
+    @apply rounded;
+  }
+
+  .card_container:hover .card_title {
+    @apply underline;
+  }
+
+  .card_title {
+    @apply decoration-2;
+  }
+
+  .overview_text {
+    @apply text-sm truncate;
+  }
+
+  /* cards ==================== */
+  .card_text {
+    @apply block h-16 w-full overflow-hidden pb-0 text-sm leading-snug text-black;
+  }
+  .card_hashtag {
+    @apply mr-1 inline-block text-xs leading-snug text-black;
+  }
+  .blog_title_medium {
+    @apply relative w-full pb-2 pt-1 text-2xl font-bold text-black;
+  }
+  .blog_text_medium {
+    @apply block h-16 w-full overflow-hidden pb-0 text-base font-normal leading-snug text-black;
+  }
+  .group_title_medium {
+    @apply relative w-full pt-1.5 pb-1 text-base font-bold text-black;
+  }
+  .group_text_medium {
+    @apply block h-16 w-full pb-0 text-sm font-normal leading-snug text-black;
+  }
+
+  /* nav ======================= */
+  .nav_page_button {
+    @apply mx-4 mt-1 mr-1 inline-block h-10 cursor-pointer select-none px-2 leading-10;
+  }
+
+  /* spacing ======================= */
+  .content_divider {
+    @apply w-full mb-8 border-b border-gray-100;
+  }
+}
