@@ -1,28 +1,22 @@
 {
-  "name": "portfolio",
-  "version": "0.0.2",
-  "scripts": {
-    "dev": "svelte-kit dev --port 3040 --open",
-    "build": "svelte-kit build",
-    "package": "svelte-kit package",
-    "preview": "svelte-kit preview",
-    "prepare": "svelte-kit sync",
-    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
-  },
-  "devDependencies": {
-    "@sveltejs/adapter-auto": "next",
-    "@sveltejs/kit": "next",
-    "autoprefixer": "^10.4.7",
-    "eslint": "^8.16.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-svelte3": "^4.0.0",
-    "postcss": "^8.4.14",
-    "prettier": "^2.6.2",
-    "prettier-plugin-svelte": "^2.7.0",
-    "svelte": "^3.48.0",
-    "svelte-preprocess": "^4.10.6",
-    "tailwindcss": "^3.0.24"
-  },
-  "type": "module"
+	"name": "new-portfolio",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"package": "svelte-kit package",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"autoprefixer": "^10.4.7",
+		"postcss": "^8.4.14",
+		"svelte": "^3.44.0",
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.1.6",
+		"vite": "^3.0.0"
+	},
+	"type": "module"
 }

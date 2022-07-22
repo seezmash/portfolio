@@ -9,10 +9,10 @@
       name: 'Projects',
       link: '/projects'
     },
-    {
-      name: 'Useful links',
-      link: '/links'
-    }
+    // {
+    //   name: 'Useful links',
+    //   link: '/links'
+    // }
   ]
 </script>
 

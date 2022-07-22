@@ -3,7 +3,7 @@
   import Nav from '../components/layout/Nav.svelte'
   import Footer from '../components/layout/Footer.svelte'
   import SectionTitle from '../components/widgets/SectionTitle.svelte'
-  import profileImage from '../assets/img/seez.jpg'
+  import profileImage from '../assets/img/seez2.jpg'
   import SkillCard from '../components/cards/SkillCard.svelte'
   import ProjectCard from '../components/cards/ProjectCard.svelte'
   import SocialLinkCard from '../components/cards/SocialLinkCard.svelte'

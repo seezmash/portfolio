@@ -13,7 +13,7 @@
 <BrowserHeader title="Projects" />
 <Nav selectedPageIndex={1} />
 <main>
-  <div class="page_width_wide mt-12 mx-auto flex w-full flex-col">
+  <div class="page_width_wide mt-14 mx-auto flex w-full flex-col">
     <!-- ====================================================================== -->
     <PageTitle title="Recent projects" />
 
