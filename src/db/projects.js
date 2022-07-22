@@ -5,8 +5,7 @@ let listOfItems = [
   {
     title: 'Fancy Notebook',
     image: fancynotebookImage,
-    overview:
-      'A simple note manager hosted on Firebase that interacts with a Firestore database. Built with Next.js',
+    overview: 'A simple note manager hosted on Firebase.',
     gitHubUrl: 'https://github.com/seezmash/fancy-notebook',
     gitHubUrlShortened: 'github.com/seezmash/fancy-notebook',
     externalUrl: 'https://fancy-notebook.web.app',
@@ -15,8 +14,7 @@ let listOfItems = [
   {
     title: 'Supercar Blog',
     image: supercarblogImage,
-    overview:
-      'A motorsport website styled with TailwindCSS and built with Next.js',
+    overview: 'A motorsport website styled with TailwindCSS.',
     gitHubUrl: 'https://github.com/seezmash/supercar-blog',
     gitHubUrlShortened: 'github.com/seezmash/supercar-blog',
     externalUrl: 'https://supercar-blog.web.app',

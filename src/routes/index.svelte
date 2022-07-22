@@ -3,7 +3,7 @@
   import Nav from '../components/layout/Nav.svelte'
   import Footer from '../components/layout/Footer.svelte'
   import SectionTitle from '../components/widgets/SectionTitle.svelte'
-  import profileImage from '../assets/img/seez2.jpg'
+  import profileImage from '../assets/img/seez.jpg'
   import SkillCard from '../components/cards/SkillCard.svelte'
   import ProjectCard from '../components/cards/ProjectCard.svelte'
   import SocialLinkCard from '../components/cards/SocialLinkCard.svelte'
@@ -73,7 +73,7 @@
     <SectionTitle title="Recent projects" />
 
     {#if shortProjectsList}
-      <div class="relative mt-2 mb-5 flex w-full flex-wrap">
+      <div class="relative mt-2 flex w-full flex-wrap space-y-14">
         {#each shortProjectsList as item}
           <ProjectCard {item} />
         {/each}
@@ -83,7 +83,7 @@
     <!-- ====================================================================== -->
 
     <SectionTitle title="Honorable mentions" />
-    <p class=" w-full max-w-2xl flex-grow leading-relaxed text-lgF">
+    <p class=" w-full max-w-2xl flex-grow leading-relaxed">
       I'm on my way to becoming a rockstar with these technologies.
     </p>
 

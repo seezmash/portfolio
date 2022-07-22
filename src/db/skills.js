@@ -3,19 +3,11 @@ import reactLogo from '../assets/logos/react.svg'
 import nextjsLogo from '../assets/logos/nextjs.svg'
 import firebaseLogo from '../assets/logos/firebase.svg'
 import tailwindcssLogo from '../assets/logos/tailwindcss.svg'
-import typescriptLogo from '../assets/logos/typescript.svg'
-import vueLogo from '../assets/logos/vue.svg'
-import postgresqlLogo from '../assets/logos/postgresql.svg'
-import fastifyLogo from '../assets/logos/fastify.svg'
 import webpackLogo from '../assets/logos/webpack.svg'
 import strapiLogo from '../assets/logos/strapi.svg'
 import materialuiLogo from '../assets/logos/material-ui.svg'
 import svelteLogo from '../assets/logos/svelte.svg'
-import awsLogo from '../assets/logos/aws.svg'
-import viteLogo from '../assets/logos/vite.svg'
 import jestLogo from '../assets/logos/jest.svg'
-import cypressLogo from '../assets/logos/cypress.svg'
-import storybookLogo from '../assets/logos/storybook.svg'
 import reactQueryLogo from '../assets/logos/react-query.svg'
 import gitLogo from '../assets/logos/github.svg'
 import bitbucketLogo from '../assets/logos/bitbucket.svg'
@@ -68,95 +60,59 @@ export const mainSkills = [
 ]
 
 export const secondarySkills = [
-  // {
-  //   title: 'TypeScript',
-  //   image: typescriptLogo,
-  //   overview:
-  //     'Next.js is a React Framework that aims to have best-in-class developer experience and many built-in features',
-  //   url: 'https://www.typescriptlang.org/'
-  // },
-  // {
-  //   title: 'Storybook',
-  //   image: storybookLogo,
-  //   overview:
-  //     'A dev server that serves your source files over native ES modules, with rich built-in features and astonishingly fast Hot Module Replacement',
-  //   url: 'https://vitejs.dev/'
-  // },
   {
     title: 'SvelteKit',
     image: svelteLogo,
-    overview:
-      'Next.js is a React Framework that aims to have best-in-class developer experience and many built-in features',
-    url: 'https://www.typescriptlang.org/'
+    url: 'https://kit.svelte.dev/'
   },
   {
     title: 'Figma',
     image: figmaLogo,
-    overview:
-      'An approachable, performant and versatile framework for building web user interfaces.',
-    url: 'https://vuejs.org/'
+    url: 'https://www.figma.com/'
   },
   {
     title: 'Bootstrap 5',
     image: bootstrapLogo,
-    overview:
-      'Amazon Web Services provides on-demand cloud computing platforms and APIs to individuals, companies, and governments',
-    url: 'https://aws.amazon.com/'
+    url: 'https://getbootstrap.com/'
   },
   {
     title: 'Directus',
     image: directusLogo,
-    overview:
-      'A dev server that serves your source files over native ES modules, with rich built-in features and astonishingly fast Hot Module Replacement',
-    url: 'https://vitejs.dev/'
+    url: 'https://directus.io/'
   },
   {
     title: 'Strapi',
     image: strapiLogo,
-    overview:
-      'Sass is a CSS pre-processor that reduces the repetition of CSS which saves time',
-    url: 'https://www.fastify.io/'
+    url: 'https://strapi.io/'
   },
   {
     title: 'MeiliSearch',
     image: meilieSearchLogo,
-    overview:
-      'Sass is a CSS pre-processor that reduces the repetition of CSS which saves time',
     url: 'https://www.meilisearch.com/'
   },
   {
     title: 'React Query',
     image: reactQueryLogo,
-    overview:
-      'An approachable, performant and versatile framework for building web user interfaces.',
-    url: 'https://vuejs.org/'
+    url: 'https://tanstack.com/query/v4'
   },
   {
     title: 'Jest',
     image: jestLogo,
-    overview:
-      'Next.js is a React Framework that aims to have best-in-class developer experience and many built-in features',
-    url: 'https://nextjs.org/'
+    url: 'https://jestjs.io/'
   },
   {
     title: 'Webpack',
     image: webpackLogo,
-    overview:
-      'Next.js is a React Framework that aims to have best-in-class developer experience and many built-in features',
-    url: 'https://nextjs.org/'
+    url: 'https://webpack.js.org/'
   },
   {
     title: 'Bitbucket',
     image: bitbucketLogo,
-    overview:
-      'Sass is a CSS pre-processor that reduces the repetition of CSS which saves time',
-    url: 'https://bitbucket.org/product/'
+    url: 'https://bitbucket.org/product'
   },
   {
     title: 'Git',
     image: gitLogo,
-    overview:
-      'Sass is a CSS pre-processor that reduces the repetition of CSS which saves time',
-    url: 'https://github.com/'
+    url: 'https://github.com/seezmash'
   }
 ]

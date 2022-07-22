@@ -15,7 +15,7 @@
 </script>
 
 <div
-  class="relative w-full mb-12 pr-6F max-w-2xl flex-grow flex flex-col select-none bg-yellow-100F border-tF"
+  class="relative w-full max-w-2xl flex-grow flex flex-col select-none bg-yellow-100F border-tF"
 >
   <a
     href={item.externalUrl}
@@ -30,7 +30,7 @@
     />
   </a>
   <h3
-    class=" text-lg font-semibold text-gray-800 w-full mt-4 h-14F overflow-hidden"
+    class=" text-lg font-bold text-gray-800 w-full mt-4 h-14F overflow-hidden"
   >
     {item.title}
   </h3>
