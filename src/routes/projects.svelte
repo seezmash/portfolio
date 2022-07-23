@@ -5,6 +5,7 @@
   import PageTitle from '../components/widgets/PageTitle.svelte'
   import ProjectCard from '../components/cards/ProjectCard.svelte'
   import projectsList from '../db/projects'
+  import SectionTitle from '../components/widgets/SectionTitle.svelte'
 
   let shortProjectsList = Array.from(projectsList)
   shortProjectsList.splice(4)
@@ -18,7 +19,7 @@
     <PageTitle title="Recent projects" />
 
     {#if shortProjectsList}
-      <div class="relative mt-8 flex w-full flex-wrap space-y-12">
+      <div class="relative mt-8 flex w-full flex-wrap space-y-16">
         {#each shortProjectsList as item}
           <ProjectCard {item} />
         {/each}

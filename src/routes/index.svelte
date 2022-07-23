@@ -62,7 +62,7 @@
     <!-- ====================================================================== -->
 
     {#if mainSkills}
-      <div class="relative mt-10 mb-5 flex w-full flex-wrap">
+      <div class="relative mt-10 mb-4 flex w-full flex-wrap">
         {#each mainSkills as item}
           <SkillCard {item} />
         {/each}
@@ -73,7 +73,7 @@
     <SectionTitle title="Recent projects" />
 
     {#if shortProjectsList}
-      <div class="relative mt-2 flex w-full flex-wrap space-y-12">
+      <div class="relative mt-6 mb-12 flex w-full flex-wrap space-y-16">
         {#each shortProjectsList as item}
           <ProjectCard {item} />
         {/each}
@@ -88,7 +88,7 @@
     </p>
 
     {#if secondarySkills}
-      <div class="relative mt-10 flex w-full flex-wrap">
+      <div class="relative mt-14 flex w-full flex-wrap">
         {#each secondarySkills as item}
           <SkillCard {item} />
         {/each}
