@@ -18,7 +18,7 @@
     <PageTitle title="Recent projects" />
 
     {#if shortProjectsList}
-      <div class="relative mt-8 flex w-full flex-wrap space-y-14">
+      <div class="relative mt-8 flex w-full flex-wrap space-y-12">
         {#each shortProjectsList as item}
           <ProjectCard {item} />
         {/each}
