@@ -55,8 +55,8 @@
     <!-- ====================================================================== -->
 
     <p class="block mt-7 w-full max-w-2xl flex-grow leading-relaxed text-lgF">
-      I'm a self-taught JavaScript enthusiast who's enjoyed creating layouts and components since
-      2017. My most familiar technologies include:
+      I spend much of my time creating custom, detailed and responsive web apps.<br>
+      I am self taught with over 5 years of React and UI Design experience.<br><br>My favourite technologies include:
     </p>
 
     <!-- ====================================================================== -->
@@ -84,7 +84,7 @@
 
     <SectionTitle title="Honorable mentions" />
     <p class=" w-full max-w-2xl flex-grow leading-relaxed">
-      I'm on my way to becoming a rockstar with these technologies.
+      I'm on my way to becoming a rockstar with these tools.
     </p>
 
     {#if secondarySkills}

@@ -15,6 +15,7 @@ import directusLogo from '../assets/logos/directus.svg'
 import figmaLogo from '../assets/logos/figma.svg'
 import bootstrapLogo from '../assets/logos/bootstrap-5.svg'
 import viteLogo from '../assets/logos/vite.svg'
+import typescriptLogo from '../assets/logos/typescript.svg'
 
 export const mainSkills = [
   {
@@ -51,9 +52,9 @@ export const mainSkills = [
 
 export const secondarySkills = [
   {
-    title: 'SvelteKit',
-    image: svelteLogo,
-    url: 'https://kit.svelte.dev/'
+    title: 'Typescript',
+    image: typescriptLogo,
+    url: 'https://www.typescriptlang.org/'
   },
   {
     title: 'Figma',
@@ -79,6 +80,11 @@ export const secondarySkills = [
     title: 'MeiliSearch',
     image: meilieSearchLogo,
     url: 'https://www.meilisearch.com/'
+  },
+  {
+    title: 'SvelteKit',
+    image: svelteLogo,
+    url: 'https://kit.svelte.dev/'
   },
   {
     title: 'React Query',
