@@ -3,15 +3,6 @@ import supercarblogImage from '../assets/img/projects/supercar-blog.png'
 
 let listOfItems = [
   {
-    title: 'Fancy Notebook',
-    image: fancynotebookImage,
-    overview: 'A simple note manager hosted on Firebase.',
-    gitHubUrl: 'https://github.com/seezmash/fancy-notebook',
-    gitHubUrlShortened: 'github.com/seezmash/fancy-notebook',
-    externalUrl: 'https://fancy-notebook.web.app',
-    projectTags: ['React', 'Firebase', 'TailwindCSS']
-  },
-  {
     title: 'Supercar Blog',
     image: supercarblogImage,
     overview: 'A motorsport website styled with TailwindCSS.',
@@ -19,6 +10,15 @@ let listOfItems = [
     gitHubUrlShortened: 'github.com/seezmash/supercar-blog',
     externalUrl: 'https://supercar-blog.web.app',
     projectTags: ['Next.js', 'TailwindCSS']
+  },
+  {
+    title: 'Fancy Notebook',
+    image: fancynotebookImage,
+    overview: 'A simple note manager hosted on Firebase.',
+    gitHubUrl: 'https://github.com/seezmash/fancy-notebook',
+    gitHubUrlShortened: 'github.com/seezmash/fancy-notebook',
+    externalUrl: 'https://fancy-notebook.web.app',
+    projectTags: ['React', 'Firebase', 'TailwindCSS']
   }
 ]
 
